@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Rubik:wght@500&display=swap');
+/* .mycol{
+    height: 80vh;
+    border: 2px solid;
+    background-color: yellowgreen;
+} */
+.contents{
+    padding: 70px;
+}
+.part1{
+    display: flex;
+    align-items: center;
+}
+.part1 h5{
+    margin-left: 30px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.part1 ion-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.part2 h1{
+    font-family: Rubik;
+    font-size: 30px;
+}
+.part2 h1::first-line{
+    font-weight: 700;
+    font-size: 33px;
+}
+.part3 p{
+    font-family: Fira Sans;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.463);
+}
+.part4 button{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 5px solid rgba(22, 22, 48, 0.29);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.part4 button:hover{
+    background-color: red;
+    color: white;
+}
